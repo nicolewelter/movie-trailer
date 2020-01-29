@@ -140,4 +140,25 @@ main {
   }
 
 }
+/* video player edits */
+
+/* Example: Change color of play button */
+.plyr__control--overlaid {
+  background: orange;
+}
+/* button on focus */
+.plyr--video .plyr__control:hover {
+  background: orange;
+}
+
+/* Example: Change color of progress bar */
+.plyr--full-ui input[type="range"] {
+  color: gold;
+}
+
+/* Example: Change player controls */
+.plyr--video .plyr__controls {
+    color: orange;
+  font-size: 2em;
+}
 
