@@ -591,9 +591,12 @@ color: #F2B016;
   color: black;
 }
 
-#trailer {
-  position: relative;
-  display: inline-block;
+#player {
+  border: 4px solid black; /* Black */
+}
+
+#words {
+  padding-top: 50px;
 }
 
 /* grid */
